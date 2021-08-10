@@ -8,3 +8,5 @@ In the radar pipeline, the object is recognized via an integrated mmWave radar m
 The object-level information from both pipelines is feed into a Kalman-filter-based data aggregator, which eventually present the fusion result to the user. 
 
 The overall latency is lower than 100ms and can achieve real-time performance for 2-way 720P security camera on an Nvidia TX2 Jetson evaluation board.
+
+The demovideo is a partial milestone where the visual information can be applied to form a trace of an object, the full information is included in a conference paper which is under review.
